@@ -5,15 +5,17 @@ channels:
   - conda-forge
 dependencies:
   - python>=3.10
+  - pytorch
+  - torchvision
   - numpy
   - pandas
-  - yfinance
   - matplotlib
   - scikit-learn
-  - catboost
-  - ipywidgets
+
+  - pip:
+    - keras-core
+    - jax[cpu]
 
   # linting
   - black
-  - flake8
   - isort
