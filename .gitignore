@@ -1,4 +1,7 @@
 catboost_info/
 keras_core_stuff/data/
-env/
+venv/
+*.csv
+logs/
+lightning_logs/
 __pycache__/
